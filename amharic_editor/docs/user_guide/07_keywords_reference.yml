@@ -1,0 +1,15 @@
+title: ቁልፍ ቃላት — ማጠቃለያ
+order: 7
+sections:
+  - heading: ቁጥጥር
+    body: |
+      አትም print | ግቤት input | ከሆነ if | ካልሆነ else | እስከ while
+      ተግባር function | መልስ return | መጨረሻ end
+      እውነት true | ሐሰት false | እና and | ወይም or | አይደለም not
+  - heading: ውሂብ
+    body: |
+      ቁጥር number | ጽሑፍ text
+  - heading: ማስታወሻ
+    body: |
+      ሙሉ ቁልፍ-ቃል ሰንጠረዥ ለማየት «ቁልፍ ቃላት» በመሳሪያ አሞሌ ይጫኑ።
+      ምሳሌ ፋይሎች — እገዛ → ምሳሌ ፕሮግራሞች።

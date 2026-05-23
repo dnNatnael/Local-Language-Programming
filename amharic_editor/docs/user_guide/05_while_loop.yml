@@ -1,0 +1,34 @@
+title: "4. Control flow — while loop (እስከ)"
+order: 5
+sections:
+  - heading: መግለጫ
+    body: |
+      እስከ condition
+          ... statements ...
+      መጨረሻ
+
+      Runs while the condition is true.
+  - heading: Count from 0 to 4
+    code_example: |
+      # Count from 0 to 4
+      ቁጥር i = 0
+
+      እስከ i < 5
+          አትም i
+          i = i + 1
+      መጨረሻ
+
+      አትም "Loop finished."
+  - heading: Sum numbers 1 through 5
+    code_example: |
+      # --- Sum numbers 1 through 5 ---
+      ቁጥር n = 1
+      ቁጥር ድምር = 0
+
+      እስከ n < 6
+          ድምር = ድምር + n
+          n = n + 1
+      መጨረሻ
+
+      አትም "Sum of 1..5:"
+      አትም ድምር

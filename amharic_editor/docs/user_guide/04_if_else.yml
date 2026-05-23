@@ -1,0 +1,31 @@
+title: "3. Control flow — if / else (ከሆነ / ካልሆነ)"
+order: 4
+sections:
+  - heading: መግለጫ
+    body: |
+      Every block must end with መጨረሻ.
+
+      ከሆነ condition
+          statements
+      ካልሆነ
+          statements
+      መጨረሻ
+  - heading: Example — age check
+    code_example: |
+      ቁጥር ዕድሜ = 18
+
+      ከሆነ ዕድሜ > 17
+          አትም "አዋጅ ነህ — መግባት ትችላለህ"
+      ካልሆነ
+          አትም "አዋጅ አይደለህም"
+      መጨረሻ
+  - heading: Example — number message
+    code_example: |
+      # --- Another example: pick a message from a number ---
+      ቁጥር ነጥብ = 7
+
+      ከሆነ ነጥብ == 0
+          አትም "zero"
+      ካልሆነ
+          አትም "not zero"
+      መጨረሻ
