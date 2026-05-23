@@ -1,0 +1,46 @@
+title: "2. Expressions — arithmetic and comparisons"
+order: 3
+sections:
+  - heading: ኦፕሬተሮች
+    body: |
+      Arithmetic:  +  -  *  /
+      Comparisons:  ==  <  >
+      Logical:      እና (and)   ወይም (or)   አይደለም (not)
+      Comparisons yield እውነት or ሐሰት.
+  - heading: Arithmetic
+    code_example: |
+      ቁጥር a = 12
+      ቁጥር b = 5
+
+      # --- Arithmetic ---
+      አትም "Addition:"
+      አትም a + b
+
+      አትም "Subtraction:"
+      አትም a - b
+
+      አትም "Multiplication:"
+      አትም a * b
+
+      አትም "Division:"
+      አትም a / b
+  - heading: Comparisons
+    code_example: |
+      # --- Comparisons (result is እውነት or ሐሰት) ---
+      ከሆነ a == 12
+          አትም "a equals 12"
+      መጨረሻ
+
+      ከሆነ a > b
+          አትም "a is greater than b"
+      መጨረሻ
+
+      ከሆነ b < a
+          አትም "b is less than a"
+      መጨረሻ
+  - heading: Combine with logic
+    code_example: |
+      # --- Combine with logic ---
+      ከሆነ a > b እና b > 0
+          አትም "a > b and b is positive"
+      መጨረሻ

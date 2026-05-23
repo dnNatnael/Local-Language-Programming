@@ -1,0 +1,27 @@
+title: "1. Variables — declaration and assignment"
+order: 2
+sections:
+  - heading: መግለጫ
+    body: |
+      ቁጥር = number variable
+      ጽሑፍ = text (string) variable
+      አትም — ዋጋ ለማተም ይጠቀሙ።
+  - heading: Declare with a starting value
+    code_example: |
+      # --- Declare with a starting value ---
+      ቁጥር x = 10
+      ቁጥር y = 20
+      ጽሑፍ ስም = "AML"
+
+      አትም x
+      አትም y
+      አትም ስም
+  - heading: Change a value later (assignment)
+    code_example: |
+      # --- Change a value later (assignment) ---
+      x = 100
+      y = x + 5
+
+      አትም "After assignment:"
+      አትም x
+      አትም y
